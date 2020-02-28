@@ -18,7 +18,7 @@ function Header() {
             <link
                 rel="icon"
                 href={query.site.siteMetadata.icon}
-                type="image/png"
+                type="image/svg"
             />
             <link
                 rel="stylesheet"

@@ -117,7 +117,10 @@ class Contact extends React.Component {
                 >
                     {this.showContactForm && (
                         <div className="col s12 m6">
-                            <form>
+                            <form
+                                action="https://formspree.io/moqwdqvp"
+                                method="POST"
+                            >
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
@@ -145,7 +148,7 @@ class Contact extends React.Component {
                                                 type="email"
                                                 ref={c => (this.dataEmail = c)}
                                                 className="field-box"
-                                                name="email"
+                                                name="_replyto"
                                                 id="email"
                                                 required
                                             />
@@ -181,8 +184,8 @@ class Contact extends React.Component {
                                                     ? " disabled"
                                                     : "")
                                             }
-                                            onClick={this.handleSubmit}
                                             id="submit"
+                                            type="submit"
                                             ref={c => (this.btn = c)}
                                         >
                                             SEND{" "}
@@ -211,6 +214,7 @@ class Contact extends React.Component {
                                         </button>
                                     </label>
                                     <label>
+                                        <input type="hidden" />
                                         <p
                                             className="res-message"
                                             ref={c => (this.resMessage = c)}
@@ -240,7 +244,7 @@ class Contact extends React.Component {
                                     </span>
                                     <a
                                         href={
-                                            "mailto:" + this.props.contact.mail
+                                            "mailto:yazgeldi.seyidov@gmail.com"
                                         }
                                     >
                                         {this.props.contact.mail}
@@ -252,14 +256,12 @@ class Contact extends React.Component {
                                     <span className="icon">
                                         <Mobile />
                                     </span>
-                                    <a href={"tel:" + this.props.contact.phone}>
-                                        {this.props.contact.phone}
-                                    </a>
+                                    {this.props.contact.phone}
                                 </li>
                             )}
                             {this.props.contact.address && (
                                 <li
-                                    className="text-tertiary item"
+                                    className="text-secondary item"
                                     style={{ whiteSpace: "pre" }}
                                 >
                                     <span className="icon">

@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import { graphql } from "gatsby";
 import SEO from "../components/seo";
 import SocialLinks from "../components/sociallinks";
-import PortfolioList from "../components/list-portfolio";
+// import PortfolioList from "../components/list-portfolio";
 import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
@@ -132,15 +132,15 @@ class IndexPage extends React.Component {
                         <p className="caption text-tertiary">
                             {this.props.data.site.siteMetadata.description}
                         </p>
-                        <a href="#portfolio" className="btn">
-                            SEE WORKS
+                        <a href="/#blog" className="btn">
+                            SEE MORE
                         </a>
                     </div>
                     <div className="social-buttons">
                         <SocialLinks />
                     </div>
                 </div>
-                <PortfolioList />
+                {/* <PortfolioList /> */}
                 <BlogList />
                 <Contact />
             </Layout>

@@ -1,63 +1,66 @@
+#portfolio {
+	.item {
+		margin: 50px 0;
 
-#portfolio{
-	.item{
-		margin: 160px 0;
-
-		&:first-child{
+		&:first-child {
 			margin-top: 40px;
 		}
 
-		&:last-child{
+		&:last-child {
 			margin-bottom: 40px;
 		}
 
-		&:nth-child(even){
-			.flex{
+		&:nth-child(even) {
+			.flex {
 				flex-direction: row-reverse;
 			}
 		}
 	}
-	.flex{
+
+	.flex {
 		align-items: center;
 
-		.col{
+		.col {
 			padding: 22px;
 		}
-		.image{
+
+		.image {
 			position: relative;
 			flex: 1;
 
-			&:hover{
-				& + .content h2:after{
+			&:hover {
+				&+.content h2:after {
 					width: 100%;
 				}
 			}
 		}
-		h2{
+
+		h2 {
 			text-transform: uppercase;
 			font-size: 44px;
 			letter-spacing: 2px;
 			position: relative;
 			display: inline-block;
 
-			&:after{
+			&:after {
 				transition: width .25s;
 				width: 0%;
 			}
 
-			&:hover:after{
+			&:hover:after {
 				width: 100%;
 			}
 		}
-		p{
+
+		p {
 			margin-top: 15px;
 		}
 	}
 }
 
 @media only screen and (max-width: 800px) {
-	#portfolio{
-		.item{
+	#portfolio {
+		.item {
 			margin: 60px 0;
 		}
 	}

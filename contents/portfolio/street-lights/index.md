@@ -1,54 +1,27 @@
 ---
-title: Street Lights
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-date: 2019-06-28
+title: Risto
+description: Restaurant search application, built with React, Redux and Ruby on Rails.
+date: Jan 26, 2020
+release: 03
 template: portfolio
-image: ./image.jpg
+image: ./risto-thumb.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[row][col]
+I have built this application as the last pre-graduation project work at Flatiron School. It was a decent experience to use React and Redux, the most popular Front End Framework by JavaScript. For Back End I used Ruby on Rails API to store some data in my own database and Zomato API to fetch restaurants data while the customer types a restaurant name, food name or a cuisine name in the input field on homepage.
 
-[row]
-[col]
-![image](./b1.jpg)
+[row][col]
+![image](./risto-thumb.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+[/col][/row]
 
-[/col]
-[col]
-![image](./b2.jpg)
+[row][col]
+Demo Video: <a href="https://www.youtube.com/watch?v=e88Qy8yO4UE&t=1s" target="_blank" ><img src="./youtube.svg" alt="No img" width="50" height="50" border="0" /></a>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+[/col][col]
+Code Source: <a href="https://github.com/yazseyit77/risto" target="_blank" ><img src="./github.svg" alt="No img" width="50" height="50" /></a>
 
-[/col]
-[/row]
+[/col][col]
+Blog Post: <a href="https://medium.com/@yazgeldi.seyidov/react-redux-portfolio-project-designed-with-react-semantic-ui-b7caf20ca261" target="_blank" ><img src="./notes.svg" alt="No img" width="50" height="50" /></a>
 
-[row]
-[col]
-![image](./w1.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-[/col]
-[/row]
-
-[row]
-[col]
-![image](./l1.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-[/col]
-[col]
-![image](./l2.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-[/col]
-[col]
-![image](./l3.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-[/col]
-[/row]
+[/col][/row]

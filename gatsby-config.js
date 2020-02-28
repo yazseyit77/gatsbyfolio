@@ -1,12 +1,12 @@
 let siteMetadata = {
-    title: `Elemental`,
+    title: `My Portfolio`,
     capitalizeTitleOnHome: true,
-    logo: `/images/logo.png`,
-    icon: `/images/icon.png`,
+    logo: `/images/location2.svg`,
+    icon: `/images/location.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`,
+    introTag: `Front End Web Developer | Back End Web Developer`,
+    description: `Seeking for open positions.`,
+    author: `@yazseyit77`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -21,11 +21,11 @@ let siteMetadata = {
             url: "/about"
         },
         {
-            name: "BLOG",
+            name: "BLOGS",
             url: "/blog"
         },
         {
-            name: "PORTFOLIO",
+            name: "PROJECTS",
             url: "/portfolio"
         },
         {
@@ -35,43 +35,44 @@ let siteMetadata = {
     ],
     footerLinks: [
         {
-            name: "PRIVACY POLICY",
-            url: "/privacy-policy"
+            name: "MIT Licence",
+            url: "/license"
         },
         {
             name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental"
+            url: "https://github.com/yazseyit77"
         }
     ],
     social: [
         {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "#"
+            name: "Website",
+            icon: "/images/domain.svg",
+            url: "https://yazseyit77.github.io/portfoliopage/"
         },
         {
-            name: "Twitter",
-            icon: "/images/Twitter.svg",
-            url: "#"
+            name: "LinkeIn",
+            icon: "/images/linkedin.svg",
+            url: "https://www.linkedin.com/in/yazgeldi-seyidov"
         },
         {
-            name: "Instagram",
-            icon: "/images/Instagram.svg",
-            url: "#"
+            name: "GitHub",
+            icon: "/images/github3D.svg",
+            url: "https://github.com/yazseyit77"
         },
         {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
-            url: "#"
+            name: "Resume",
+            icon: "/images/word.svg",
+            url:
+                "https://drive.google.com/file/d/1LybmAClPGXMUeDasHbbk_sc-93Ca5nOw/view?usp=sharing"
         }
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
-        api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        api_url: "https://formspree.io/moqwdqvp",
+        description: `Please feel free to reach out to me for any questions.`,
+        mail: "Gmail: yazgeldi.seyidov",
+        phone: "Phone: 619-717-9556",
+        address: "Location: San Diego, CA"
     }
 };
 
