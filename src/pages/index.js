@@ -105,7 +105,7 @@ class IndexPage extends React.Component {
                                         height="100"
                                     />
                                     <image
-                                        xlinkHref="/images/wall.jpg"
+                                        xlinkHref="/images/aqua.png"
                                         height="100"
                                         width="100"
                                         y="0"

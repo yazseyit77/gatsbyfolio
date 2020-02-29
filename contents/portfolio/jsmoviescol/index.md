@@ -1,5 +1,5 @@
 ---
-title: JSMoviesCollection
+title: JSMovies
 description: Freelancer web developers' personal record kept for following up with customers and their orders.
 date: Dec 23, 2019
 release: 02

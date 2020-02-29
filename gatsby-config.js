@@ -1,9 +1,9 @@
 let siteMetadata = {
-    title: `My Portfolio`,
+    title: `Yazgeldi Seyidov`,
     capitalizeTitleOnHome: true,
     logo: `/images/location2.svg`,
     icon: `/images/location.png`,
-    titleImage: `/images/wall.jpg`,
+    titleImage: `/images/aqua.jpg`,
     introTag: `Front End Web Developer | Back End Web Developer`,
     description: `Seeking for open positions.`,
     author: `@yazseyit77`,
