@@ -7,8 +7,8 @@ let siteMetadata = {
     introTag: `Front End Web Developer | Back End Web Developer`,
     description: `Seeking for open positions.`,
     author: `@yazseyit77`,
-    blogItemsPerPage: 10,
-    portfolioItemsPerPage: 10,
+    blogItemsPerPage: 4,
+    portfolioItemsPerPage: 6,
     darkmode: true,
     switchTheme: true,
     navLinks: [

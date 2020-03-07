@@ -5,6 +5,7 @@
     "author": "Yaz",
     "dependencies": {
         "gatsby": "^2.10.4",
+        "gatsby-cli": "^2.10.2",
         "gatsby-custom-md": "^1.0.2",
         "gatsby-image": "^2.2.3",
         "gatsby-plugin-less": "^2.1.0",

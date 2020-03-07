@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import { graphql } from "gatsby";
 import SEO from "../components/seo";
 import SocialLinks from "../components/sociallinks";
-// import PortfolioList from "../components/list-portfolio";
+import PortfolioList from "../components/list-portfolio";
 import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
     componentDidMount() {
         this.setWindowHeight();
         let _this = this;
-        window.addEventListener("resize", function() {
+        window.addEventListener("resize", function () {
             _this.setWindowHeight();
         });
         let sWidth = this.svg.clientWidth,
@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
             let tInnerText = tText.innerHTML;
             if (tInnerText.split(" ").length > 1) {
                 tText.innerHTML = "";
-                tInnerText.split(" ").forEach(function(e, i) {
+                tInnerText.split(" ").forEach(function (e, i) {
                     let tSpan = _this.createSVGElement("tspan", {
                         dy: i === 0 ? "0em" : ".8em",
                         x: "50"
@@ -44,7 +44,7 @@ class IndexPage extends React.Component {
                     tSpan.innerHTML = e;
                     tText.appendChild(tSpan);
                 });
-                setTimeout(function() {
+                setTimeout(function () {
                     _this.svg.style.height =
                         tText.getBoundingClientRect().height + 70;
                     _this.svg.style.margin = "15px auto";
@@ -122,7 +122,7 @@ class IndexPage extends React.Component {
                                         .capitalizeTitleOnHome
                                         ? this.props.data.site.siteMetadata.title.toUpperCase()
                                         : this.props.data.site.siteMetadata
-                                              .title}
+                                            .title}
                                 </text>
                             </svg>
                         </div>
@@ -140,7 +140,7 @@ class IndexPage extends React.Component {
                         <SocialLinks />
                     </div>
                 </div>
-                {/* <PortfolioList /> */}
+                <PortfolioList />
                 <BlogList />
                 <Contact />
             </Layout>
