@@ -63,7 +63,7 @@ let siteMetadata = {
             name: "Resume",
             icon: "/images/word.svg",
             url:
-                "https://drive.google.com/file/d/1LybmAClPGXMUeDasHbbk_sc-93Ca5nOw/view?usp=sharing"
+                "https://drive.google.com/file/d/1rqXyksA8u4P89COwVmWhlB2oSHdw3muP/view?usp=sharing"
         }
     ],
     contact: {
