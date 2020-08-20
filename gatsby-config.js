@@ -68,7 +68,7 @@ let siteMetadata = {
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
-        api_url: "https://formspree.io/moqwdqvp",
+        // api_url: "https://formspree.io/moqwdqvp",
         description: `Please feel free to reach out to me for any questions.`,
         mail: "Gmail: yazgeldi.seyidov",
         phone: "Phone: 619-717-9556",
