@@ -117,10 +117,7 @@ class Contact extends React.Component {
                 >
                     {this.showContactForm && (
                         <div className="col s12 m6">
-                            <form
-                                action="https://formspree.io/moqwdqvp"
-                                method="POST"
-                            >
+                            <form action="formspree.io/moqwdqvp" method="POST">
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">
