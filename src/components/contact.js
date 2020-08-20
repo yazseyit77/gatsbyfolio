@@ -242,11 +242,7 @@ class Contact extends React.Component {
                                     <span className="icon">
                                         <Envelope />
                                     </span>
-                                    <a
-                                        href={
-                                            "mailto:yazgeldi.seyidov@gmail.com"
-                                        }
-                                    >
+                                    <a href={"mailto:"}>
                                         {this.props.contact.mail}
                                     </a>
                                 </li>
